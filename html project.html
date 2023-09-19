@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="portfoliosyle.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Tempguard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div>
-    <ul><div class="navbar">
+    <div class="containerNav">
+    <ul class="navbar">
         <li class="nav-item"><a href="#Home">Home</a></li>
         <li class="nav-item"><a href="#About">About</a></li>
         <li class="nav-item"> <a href="#Work">Work</a></li>
         <li class="nav-item"><a href="#Resume">Resume</a></li>
         <li class="nav-item"><a href="#Contact">Contact</a></li>
-    </div></ul>
+    </ul>
 </div>
 <div>
     <h1 id="Home">Home</h1>
@@ -23,9 +25,7 @@
         <img src="C:\Users\EXPERTBOOK\Dropbox\gomycode\html\Environment-Hero@2x.png" width="400" height="250" alt="monit temp">
     <h1 id="Work">Work</h1>
      <p>high and precise monitoring capacity for both humidity and temperature </p>  
-     <p>
-     <audio controls src="C:\Users\EXPERTBOOK\Dropbox\gomycode\html\Samir Srour - Gana Alhawa _ سمير سرور - جانا الهوى.m4a"></audio>  
-    </p>
+     
      <table border="2">
         <tr>
             <th>degree</th>
@@ -43,13 +43,20 @@
             <td>86</td>
         </tr>
     
-    </table>
-    <h1 id="Resume">Resume</h1>
-     <p>tempguard worked in several retail point from small to mid size company</p>
-     <p>monitoring has been made in several harsh envirnment like freezer and controled atmosphere</p>
+     </table>
+     <p>
+        <audio controls src="C:\Users\EXPERTBOOK\Dropbox\gomycode\html\Samir Srour - Gana Alhawa _ سمير سرور - جانا الهوى.m4a"></audio>  
+       </p>
+       <h1 id="Resume">Resume</h1>
+       <div class="container">
+       <div>
+        
+         <p>tempguard worked in several retail point from small to mid size company</p>
+         <p>monitoring has been made in several harsh envirnment like freezer and controled atmosphere</p>
+        </div>
     
      <iframe width="500" height="300" src="https://www.youtube.com/embed/WWvyBGACfME" title="Best Wifi Freezer Alarm in 2021 - The Best Wifi Freezer Alarm" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-     
+    </div>
     <h1 id="Contact">Contact</h1>   
     <form>
         <p>please enter your contact information</p>
@@ -82,9 +89,8 @@
 
 
 <footer>
-Tempguard 2023 <br>
-Facebook <br>
-instagram
+<p>Tempguard 2023 </p>
+<p>Facebook <br> instagram </p>
 
 </footer>
 </html>
